@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $ (cut -c2 | " \n")
+echo $(cut -c1 | tr -d " \n")
